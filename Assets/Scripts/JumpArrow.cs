@@ -11,15 +11,19 @@ public class JumpArrow : MonoBehaviour
     public void disableRotation()
     {
         rotating = false;
+        Debug.Log("Disabled rotation");
     }
-        public void enableRotation()
+    public void enableRotation()
     {
         rotating = true;
+    }
+    public float getZDirection()
+    {
+        return gameObject.transform.rotation.eulerAngles.z;
     }
     void Update()
     {
         float arrowRotationZ = gameObject.transform.rotation.eulerAngles.z;
-        Debug.Log(arrowRotationZ);
         if (rotating && !movingUp)
         {
             gameObject.transform.RotateAround(pivotPoint.position, new Vector3(0, 0, 1), Time.deltaTime * -arrowRotateSpeed);
