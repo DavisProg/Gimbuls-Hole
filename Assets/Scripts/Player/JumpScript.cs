@@ -40,11 +40,7 @@ public class JumpScript : MonoBehaviour
         jumpArrow.enableRotation();
         rb.linearVelocity = new Vector2(0, 0);
         rb.gravityScale = 0;
-        Vector3 orientation = transform.localScale;
-        orientation.x = -transform.localScale.x;
-        transform.localScale = orientation;
-        jumpArrow.movingUp = !jumpArrow.movingUp;
-        jumpArrow.facingRight = !jumpArrow.facingRight;
+        flipPlayer();
         Debug.Log(jumpArrow.movingUp);
         canJump = true;
         
@@ -52,5 +48,13 @@ public class JumpScript : MonoBehaviour
     public void launchPlayer(float force)
     {
         rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * force, ForceMode2D.Impulse);
+    }
+    public void flipPlayer()
+    {
+        Vector3 orientation = transform.localScale;
+        orientation.x = -transform.localScale.x;
+        transform.localScale = orientation;
+        jumpArrow.movingUp = !jumpArrow.movingUp;
+        jumpArrow.facingRight = !jumpArrow.facingRight;
     }
 }
