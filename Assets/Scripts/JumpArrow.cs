@@ -17,9 +17,9 @@ public class JumpArrow : MonoBehaviour
     {
         rotating = true;
     }
-    public float getZDirection()
+    public Vector3 getArrowDirection()
     {
-        return gameObject.transform.rotation.eulerAngles.z;
+        return gameObject.transform.forward;
     }
     void Update()
     {
