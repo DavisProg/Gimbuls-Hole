@@ -1,15 +1,19 @@
+using System.Collections;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     private Rigidbody2D rb;
     [SerializeField] private int maxHealth = 3;
-    int currentHealth;
+    [SerializeField] private float damageCooldown = 2;
+    private bool canDamage = true;
+    private int currentHealth;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
        rb = gameObject.GetComponent<Rigidbody2D>(); 
+       currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -18,11 +22,25 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
     public void takeDamage()
     {
-        currentHealth--;
-        if(currentHealth <= 0)
+        if (canDamage)
         {
-            die();
+            canDamage = false;
+            currentHealth--;
+            if(currentHealth <= 0)
+            {
+                die();
+            }
+            Debug.Log(currentHealth);
+            StartCoroutine(IFrames(damageCooldown));
+
         }
+        
+    }
+    public IEnumerator IFrames(float time)
+    {
+        yield return new WaitForSeconds(time);
+        Debug.Log("Can damage now");
+        canDamage = true;
     }
     private void die()
     {

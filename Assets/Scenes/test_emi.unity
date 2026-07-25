@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   maxHealth: 3
+  damageCooldown: 2
 --- !u!1 &272528775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,14 +1124,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4264151, g: 0.4264151, b: 0.4264151, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4105555794243735828, guid: d14ea921e4dbe8a4e9ba71a863202e87, type: 3}
+  m_Sprite: {fileID: -1120597417256039401, guid: 1ef6e6b5cc2ca6545bca580afecf067b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

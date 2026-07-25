@@ -7,7 +7,11 @@ public class JumpArrow : MonoBehaviour
     [SerializeField] private Transform pivotPoint;
     [SerializeField] private float arrowRotateSpeed;
     private bool rotating = true;
-    private bool movingUp = false;
+    public bool movingUp = false;
+    public bool facingRight = true;
+    private float clampDown = 200;
+    private float clampUp = 340;
+
     public void disableRotation()
     {
         rotating = false;
@@ -23,11 +27,26 @@ public class JumpArrow : MonoBehaviour
     }
     void Update()
     {
+        
+        if (facingRight)
+        {
+            clampDown = 200;
+            clampUp = 340;
+            Debug.Log("clampUp: " + clampUp + " clampDown: " + clampDown);
+        }
+        if (!facingRight)
+        {
+            clampDown = 20;
+            clampUp = 160;
+            Debug.Log("clampUp: " + clampUp + " clampDown: " + clampDown);
+        }
+        
+        
         float arrowRotationZ = gameObject.transform.rotation.eulerAngles.z;
         if (rotating && !movingUp)
         {
             gameObject.transform.RotateAround(pivotPoint.position, new Vector3(0, 0, 1), Time.deltaTime * -arrowRotateSpeed);
-            if (arrowRotationZ <= 200)
+            if (arrowRotationZ <= clampDown )
             { 
                 movingUp = true;
                 Debug.Log("Disabled moving down");
@@ -36,7 +55,7 @@ public class JumpArrow : MonoBehaviour
         else if(rotating && movingUp)
         {
             gameObject.transform.RotateAround(pivotPoint.position, new Vector3(0, 0, 1), Time.deltaTime * arrowRotateSpeed);
-            if (arrowRotationZ >= 340)
+            if (arrowRotationZ >= clampUp )
             { 
                 movingUp = false;
                 Debug.Log("Disabled moving up");

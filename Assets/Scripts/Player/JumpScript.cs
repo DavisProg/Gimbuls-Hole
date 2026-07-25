@@ -3,7 +3,8 @@ using UnityEngine;
 public class JumpScript : MonoBehaviour
 {
     private JumpArrow jumpArrow;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
+    private bool canJump = true;
     [SerializeField] float jumpForce;
     [SerializeField] float forwardJumpForce;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,12 +24,16 @@ public class JumpScript : MonoBehaviour
     }
     private void Jump()
     {
-        jumpArrow.disableRotation();
-        rb.gravityScale = 1;
-        //Debug.Log(gameObject.transform.position);
-        //Debug.Log(jumpArrow.getArrowDirection());
-        //Debug.Log((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized);
-        rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * jumpForce, ForceMode2D.Impulse);
+        if (canJump)
+        {
+            canJump = false;
+            jumpArrow.disableRotation();
+            rb.gravityScale = 1;
+            //Debug.Log(gameObject.transform.position);
+            //Debug.Log(jumpArrow.getArrowDirection());
+            //Debug.Log((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized);
+            launchPlayer(jumpForce);
+        }  
     }
     public void Land()
     {
@@ -38,6 +43,14 @@ public class JumpScript : MonoBehaviour
         Vector3 orientation = transform.localScale;
         orientation.x = -transform.localScale.x;
         transform.localScale = orientation;
+        jumpArrow.movingUp = !jumpArrow.movingUp;
+        jumpArrow.facingRight = !jumpArrow.facingRight;
+        Debug.Log(jumpArrow.movingUp);
+        canJump = true;
         
+    }
+    public void launchPlayer(float force)
+    {
+        rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * force, ForceMode2D.Impulse);
     }
 }
