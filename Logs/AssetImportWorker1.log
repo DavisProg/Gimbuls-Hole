@@ -376,3 +376,8 @@ Received Import Request.
 Start importing Assets/Assets/TileSets/assets_37.asset using Guid(27746b45e0c29804f9a40289fb70c0cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a89f080dd4a972a63291f4c469eac956') in 0.0425551 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
