@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1520
     height: 756.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 964
     height: 516.8
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -781,7 +781,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.inputsystem/InputSystem/Plugins/Users
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -791,13 +791,14 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 45
   m_LastFolders:
-  - Packages/com.unity.inputsystem/InputSystem/Plugins/Users
+  - Assets/Scripts
   m_LastFoldersGridSize: 45
   m_LastProjectPath: C:\Users\emili\OneDrive\Documents\GitHub\Gimbuls-Hole
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 646}
     m_SelectedIDs:
     - m_Data: 49384
@@ -812,6 +813,22 @@ MonoBehaviour:
     - m_Data: 49380
     - m_Data: 1000000000
     - m_Data: 2147483647
+=======
+    scrollPos: {x: 0, y: 86}
+    m_SelectedIDs:
+    - m_Data: 49122
+    m_LastClickedID:
+      m_Data: 49122
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 49114
+    - m_Data: 49116
+    - m_Data: 49118
+    - m_Data: 49120
+    - m_Data: 49122
+    - m_Data: 49414
+    - m_Data: 1000000000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -844,10 +861,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
+<<<<<<< Updated upstream
     - m_Data: 49118
     - m_Data: 49120
     - m_Data: 49122
     - m_Data: 49124
+=======
+    - m_Data: 49114
+    - m_Data: 49116
+    - m_Data: 49118
+    - m_Data: 49120
+    - m_Data: 49122
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -874,9 +899,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 44838
-    m_LastClickedInstanceID: 44838
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 48214
@@ -1525,9 +1549,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -2.6550999, y: -0.13422889, z: 0.041979562}
     speed: 2
     m_Value: {x: -2.6550999, y: -0.13422889, z: 0.041979562}
+=======
+    m_Target: {x: -1.0174124, y: 0.87931746, z: 0.02103587}
+    speed: 2
+    m_Value: {x: -1.0174124, y: 0.87931746, z: 0.02103587}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1577,9 +1607,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 5.803807
     speed: 2
     m_Value: 5.803807
+=======
+    m_Target: 7.898179
+    speed: 2
+    m_Value: 7.898179
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1654,17 +1690,22 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 44838
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+<<<<<<< Updated upstream
       - m_Data: -8468
       - m_Data: -1350
       - m_Data: 48830
       - m_Data: 48874
       - m_Data: 48966
       - m_Data: 49000
+=======
+      - m_Data: -1322
+      - m_Data: 48820
+      - m_Data: 48864
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
