@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: fdb81bee4e1249941b563a78760ce0f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1458290987708315894
+    second: fuckass dwarf_0
+  - first:
+      213: 6696783037671656203
+    second: fuckass dwarf_1
+  - first:
+      213: 282180630573898276
+    second: fuckass dwarf_2
+  - first:
+      213: 5834934558185374658
+    second: fuckass dwarf_3
+  - first:
+      213: 2796029640322418688
+    second: fuckass dwarf_4
+  - first:
+      213: -7799973501843400186
+    second: fuckass dwarf_5
+  - first:
+      213: 6566216244097762244
+    second: fuckass dwarf_6
+  - first:
+      213: -322023205838755144
+    second: fuckass dwarf_7
+  - first:
+      213: -1787191070758787507
+    second: fuckass dwarf_8
+  - first:
+      213: 6596539276814008494
+    second: fuckass dwarf_9
+  - first:
+      213: -6355142181749319852
+    second: fuckass dwarf_10
+  - first:
+      213: -8960934958453355055
+    second: fuckass dwarf_11
+  - first:
+      213: -2823925634200502486
+    second: fuckass dwarf_12
+  - first:
+      213: -1729542079780317763
+    second: fuckass dwarf_13
+  - first:
+      213: -5684843957469988402
+    second: fuckass dwarf_14
+  - first:
+      213: -2998508691833660248
+    second: fuckass dwarf_15
+  - first:
+      213: 6658609595267847616
+    second: fuckass dwarf_16
+  - first:
+      213: -2847598464039066318
+    second: fuckass dwarf_17
+  - first:
+      213: 1177837284262151082
+    second: fuckass dwarf_18
+  - first:
+      213: -6099177014060707173
+    second: fuckass dwarf_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stand
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 383
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8f18d4de3ec3410800000000000000
+      internalID: 1458290987708315894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hold
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 383
+        width: 117
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bc74211b0cfec50800000000000000
+      internalID: 6696783037671656203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hold_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 382
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c34a4cd01ad9f050800000000000000
+      internalID: 5834934558185374658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 376
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00881e4d42e7dc620800000000000000
+      internalID: 2796029640322418688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 384
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a1a251d6de0c390800000000000000
+      internalID: -7799973501843400186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fal
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 384
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3c8db72e2ef1b50800000000000000
+      internalID: 6566216244097762244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 384
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba6c86b991f78bf0800000000000000
+      internalID: -322023205838755144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d462ca9a03f9237e0800000000000000
+      internalID: -1787191070758787507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 254
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea04965b58d9b8b50800000000000000
+      internalID: 6596539276814008494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4571bbf4bdffdc7a0800000000000000
+      internalID: -6355142181749319852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 127
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd0202e12d54a380800000000000000
+      internalID: -8960934958453355055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_12
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 127
+        width: 117
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ffb55f8966fc8d0800000000000000
+      internalID: -2823925634200502486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 128
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db59a9654ae6ff7e0800000000000000
+      internalID: -1729542079780317763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 128
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9b97f4a806b11b0800000000000000
+      internalID: -5684843957469988402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 126
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac55574b382366d0800000000000000
+      internalID: -2998508691833660248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 61
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c592f7e522286c50800000000000000
+      internalID: 6658609595267847616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_17
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 127
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235e000c84c4b78d0800000000000000
+      internalID: -2847598464039066318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 125
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa308a305c4885010800000000000000
+      internalID: 1177837284262151082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fuckass dwarf_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921fae02de5b5ba0800000000000000
+      internalID: -6099177014060707173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Stand: 1458290987708315894
+      death: -1787191070758787507
+      death_2: 6596539276814008494
+      fal: 6566216244097762244
+      fall_2: -322023205838755144
+      fuckass dwarf_0: 778311711
+      fuckass dwarf_10: -6355142181749319852
+      fuckass dwarf_11: -8960934958453355055
+      fuckass dwarf_12: -2823925634200502486
+      fuckass dwarf_13: -1729542079780317763
+      fuckass dwarf_14: -5684843957469988402
+      fuckass dwarf_15: -2998508691833660248
+      fuckass dwarf_16: 6658609595267847616
+      fuckass dwarf_17: -2847598464039066318
+      fuckass dwarf_18: 1177837284262151082
+      fuckass dwarf_19: -6099177014060707173
+      fuckass dwarf_2: 282180630573898276
+      hold: 6696783037671656203
+      hold_2: 5834934558185374658
+      jump: 2796029640322418688
+      jump_2: -7799973501843400186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
