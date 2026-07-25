@@ -635,7 +635,7 @@ MonoBehaviour:
     - dockPosition: 0
       containerId: overlay-toolbar__top
       displayed: 1
-      id: Package Management/Package Manager
+      id: Services/Collab
       index: 3
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -649,7 +649,7 @@ MonoBehaviour:
     - dockPosition: 0
       containerId: overlay-toolbar__top
       displayed: 1
-      id: Services/Collab
+      id: Package Management/Package Manager
       index: 4
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
@@ -791,10 +791,10 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":531.5999755859375,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 531.6, y: 0}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -946,11 +946,7 @@ MonoBehaviour:
       m_Data: 49126
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49530
-    - m_Data: 49532
-    - m_Data: 49534
-    - m_Data: 49536
-    - m_Data: 49538
+    - m_Data: 49266
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -983,11 +979,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49530
-    - m_Data: 49532
-    - m_Data: 49534
-    - m_Data: 49536
-    - m_Data: 49538
+    - m_Data: 49266
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1665,9 +1657,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -11.276954, y: 2.805134, z: 0.0064023104}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -9.921405, y: 2.7867124, z: 0.029531326}
+    m_Value: {x: -11.276954, y: 2.805134, z: 0.0064023104}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1717,9 +1709,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.882536
+    m_Target: 10
     speed: 2
-    m_Value: 2.5696316
+    m_Value: 4.882536
   m_Ortho:
     m_Target: 1
     speed: 2
