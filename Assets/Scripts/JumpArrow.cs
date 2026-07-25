@@ -19,7 +19,7 @@ public class JumpArrow : MonoBehaviour
     }
     public Vector3 getArrowDirection()
     {
-        return gameObject.transform.forward;
+        return GameObject.Find("ArrowTip").transform.position;
     }
     void Update()
     {

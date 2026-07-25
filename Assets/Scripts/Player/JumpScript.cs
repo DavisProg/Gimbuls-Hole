@@ -24,7 +24,9 @@ public class JumpScript : MonoBehaviour
     private void Jump()
     {
         jumpArrow.disableRotation();
-        Debug.Log((gameObject.transform.forward - jumpArrow.getArrowDirection()).normalized);
-        rb.AddForce((gameObject.transform.forward - jumpArrow.getArrowDirection()).normalized * jumpForce);
+        //Debug.Log(gameObject.transform.position);
+        //Debug.Log(jumpArrow.getArrowDirection());
+        //Debug.Log((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized);
+        rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * jumpForce, ForceMode2D.Impulse);
     }
 }
