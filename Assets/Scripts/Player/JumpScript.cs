@@ -24,6 +24,7 @@ public class JumpScript : MonoBehaviour
     private void Jump()
     {
         jumpArrow.disableRotation();
+        rb.gravityScale = 1;
         //Debug.Log(gameObject.transform.position);
         //Debug.Log(jumpArrow.getArrowDirection());
         //Debug.Log((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized);
@@ -32,6 +33,7 @@ public class JumpScript : MonoBehaviour
     public void Land()
     {
         jumpArrow.enableRotation();
-    
+        rb.linearVelocity = new Vector2(0, 0);
+        rb.gravityScale = 0;
     }
 }
