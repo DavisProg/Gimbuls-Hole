@@ -35,5 +35,9 @@ public class JumpScript : MonoBehaviour
         jumpArrow.enableRotation();
         rb.linearVelocity = new Vector2(0, 0);
         rb.gravityScale = 0;
+        Vector3 orientation = transform.localScale;
+        orientation.x = -transform.localScale.x;
+        transform.localScale = orientation;
+        
     }
 }
