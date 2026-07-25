@@ -3,7 +3,7 @@ using UnityEngine;
 public class JumpScript : MonoBehaviour
 {
     private JumpArrow jumpArrow;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private bool canJump = true;
     [SerializeField] float jumpForce;
     [SerializeField] float forwardJumpForce;
@@ -32,7 +32,7 @@ public class JumpScript : MonoBehaviour
             //Debug.Log(gameObject.transform.position);
             //Debug.Log(jumpArrow.getArrowDirection());
             //Debug.Log((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized);
-            rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * jumpForce, ForceMode2D.Impulse);
+            launchPlayer(jumpForce);
         }  
     }
     public void Land()
@@ -48,5 +48,9 @@ public class JumpScript : MonoBehaviour
         Debug.Log(jumpArrow.movingUp);
         canJump = true;
         
+    }
+    public void launchPlayer(float force)
+    {
+        rb.AddForce((jumpArrow.getArrowDirection() - gameObject.transform.position).normalized * force, ForceMode2D.Impulse);
     }
 }
