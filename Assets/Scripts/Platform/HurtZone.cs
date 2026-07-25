@@ -1,8 +1,14 @@
 using UnityEngine;
 
-public class PlatformScript : MonoBehaviour
+public class HurtZone : MonoBehaviour
 {
-
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Ouch, I touchy you!! (Evil spike) >:)");
+        }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,12 +19,5 @@ public class PlatformScript : MonoBehaviour
     void Update()
     {
         
-    }
-    void CollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            
-        }
     }
 }
