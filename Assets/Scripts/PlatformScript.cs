@@ -14,11 +14,13 @@ public class PlatformScript : MonoBehaviour
     {
         
     }
-    void CollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision Detected");
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+            Debug.Log("Player touched me :(");
+            collision.gameObject.GetComponent<JumpScript>().Land();
         }
     }
 }
