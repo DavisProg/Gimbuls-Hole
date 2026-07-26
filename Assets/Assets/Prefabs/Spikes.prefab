@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -2101873669
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1038018518, guid: eb002fe61bf289544b9e150d76798744, type: 3}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e3faaad54477e478fbd20e459bca34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BounceScript
-  upForce: 0
+  upForce: 1
   hurtAwayForce: -4
   canBounceUp: 1
   canFlip: 1
