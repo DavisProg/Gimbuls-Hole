@@ -10,6 +10,7 @@ public class BackgroundController : MonoBehaviour
     public GameObject frame;
     public float parallaxEffect;
     public event Action backgroundMoved; //backgroundMoved?.Invoke();
+
     private float loopamount; // The speed at which the background should move relative to the camera
 
     void Start()
@@ -33,10 +34,12 @@ public class BackgroundController : MonoBehaviour
         if (movement > startPos + (length / 2))
         {
             startPos += length;
+            backgroundMoved?.Invoke();
         }
         else if (movement < startPos - (length / 2))
         {
             startPos -= length;
+            backgroundMoved?.Invoke();
         }
 
         
