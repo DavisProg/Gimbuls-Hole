@@ -138,6 +138,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BounceScript
   upForce: 2
   hurtAwayForce: -1
+  canBounceUp: 0
+  canFlip: 1
+  flipCooldown: 5
 --- !u!114 &175771943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,6 +155,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   maxHealth: 3
   damageCooldown: 2
+  heart1: {fileID: 316372887}
+  heart2: {fileID: 1087901048}
+  heart3: {fileID: 1151834723}
+  fullHeart: {fileID: 21300000, guid: d14ea921e4dbe8a4e9ba71a863202e87, type: 3}
+  brokenHeart: {fileID: 21300000, guid: 1ef6e6b5cc2ca6545bca580afecf067b, type: 3}
 --- !u!1 &272528775
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +271,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -2101873669
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1031705853457878542, guid: 12252a6813219e144afcbe5b2d005e0a, type: 3}
@@ -488,7 +496,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -2101873669
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5648257370851754398, guid: 12252a6813219e144afcbe5b2d005e0a, type: 3}
@@ -1124,7 +1132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4264151, g: 0.4264151, b: 0.4264151, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
