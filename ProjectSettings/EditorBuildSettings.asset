@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/test_davis.unity
     guid: aeac26b43539e144a9ed712f663a72ad
+  - enabled: 1
+    path: Assets/test_generate.unity
+    guid: 080d8b4b72061de46bc23ee0e13c3e8c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
