@@ -26,6 +26,11 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(rb.linearVelocityY);
+        if(rb.linearVelocityY <= -30)
+        {
+            takeDamage();
+        }
     }
     public void takeDamage()
     {
