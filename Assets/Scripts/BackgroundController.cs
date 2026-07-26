@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BackgroundController : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class BackgroundController : MonoBehaviour
     public GameObject cam;
     public GameObject frame;
     public float parallaxEffect;
+    public event Action backgroundMoved; //backgroundMoved?.Invoke();
     private float loopamount; // The speed at which the background should move relative to the camera
 
     void Start()

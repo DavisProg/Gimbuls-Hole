@@ -21,7 +21,7 @@ public class StarterController : MonoBehaviour
     transform.position = new Vector3(transform.position.x, startPos + distance, transform.position.z);
 
     // Destroy this object once the camera passes Y = 5
-    if (cam.transform.position.y > 5f)
+    if (cam.transform.position.y > 10f)
     {
         Destroy(gameObject);
     }
