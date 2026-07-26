@@ -22,8 +22,8 @@ public class JumpScript : MonoBehaviour
             Jump();
         }
     }
-    private void Jump()
-    {
+    public void Jump()
+    { 
         if (canJump)
         {
             canJump = false;
